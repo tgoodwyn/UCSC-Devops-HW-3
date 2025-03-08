@@ -1,26 +1,27 @@
-# hello_http
-Hello world with a webserver in C
+
+
+# SEQA.X409 - HW 3
+## UCSC Adv Devops, Spring 2025
+Building and running a 'hello world' using docker/terraform.
 
 
 ### How to build
 
-Build the Docker image
+This time, we're going to build the docker image and run it using terraform.
 ```bash
-docker build -t hello_http .
+terraform plan
+terraform apply
 ```
 
-## How to run
-In prod we generally run our app on 12344.  If you want to set the dev envup so that it can be reached on port 12344:
+### Potential error
+In class, an error was encountered when using this provider to build and run local docker images. However, we did not encounter that error. Attached is a screenshot showing our docker and terraform versions.  We're running this on a Macbook Air, M1 2020.
 
-```bash
-docker run -d -p 12344:8081 hello_http
-```
+
 
 
 
 ## How to test
-
-The application will be available at `http://localhost:12344`
+Just as with HW 1, we have mapped external port 12344 to internal port 8081.  So you can find the application at `http://localhost:12344`
 
 ```bash
 curl http://localhost:12344
