@@ -16,6 +16,7 @@ terraform apply
 ### Potential error
 In class, an error was encountered when using this provider to build and run local docker images. However, we did not encounter that error. Attached is a screenshot showing our docker and terraform versions.  We're running this on a Macbook Air, M1 2020.
 
+![image](https://github.com/user-attachments/assets/109899df-1831-49cb-9de2-bea964ccfc8e)
 
 
 
@@ -30,4 +31,3 @@ curl http://localhost:12344
 You should receive 'hello, world' in response.
 
 
-# UCSC-Devops-HW-3
