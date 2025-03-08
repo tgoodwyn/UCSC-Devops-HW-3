@@ -15,7 +15,6 @@ In prod we generally run our app on 12344.  If you want to set the dev envup so 
 ```bash
 docker run -d -p 12344:8081 hello_http
 ```
-![image](https://github.com/user-attachments/assets/53f763f4-f723-4155-8b87-cd7431fddf04)
 
 
 
